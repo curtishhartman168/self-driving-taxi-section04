@@ -28,6 +28,7 @@ Car &Car::pickup_request(std::vector<int> pickup_coords, std::vector<int> drop_c
 
 int Car::read_battery()
 {
+  
     return battery_level;
 }
 
