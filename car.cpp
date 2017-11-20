@@ -28,7 +28,7 @@ Car &Car::pickup_request(std::vector<int> pickup_coords, std::vector<int> drop_c
 
 int Car::read_battery()
 {
-    return 0;
+    return battery_level;
 }
 
 int Car::read_speed()
@@ -61,12 +61,12 @@ bool Car::check_distance(std::vector<int> pickup, std::vector<int> dropoff)
     return true;
 }
 
-bool Car::is_home() 
+bool Car::is_home()
 {
     return false;
 }
 
-bool Car::has_passengers() 
+bool Car::has_passengers()
 {
     return false;
 }
